@@ -1,0 +1,34 @@
+//
+//  SHHaveFunPrefix.pch
+//  SHHaveFun
+//
+//  Created by Futhure on 2017/11/13.
+//  Copyright © 2017年 SHHaveFun. All rights reserved.
+//
+
+#ifndef SHHaveFunPrefix_pch
+#define SHHaveFunPrefix_pch
+
+#ifdef __OBJC__
+
+// MARK: 自动推导
+// 常量
+#define let __auto_type const
+// 变量
+#define var __auto_type
+
+// MARK: 标记
+#define macro_cstr(msg) macro_cstr_(msg)
+#define macro_cstr_(msg) #msg
+// TODO
+#define TODO(msg) _Pragma(macro_cstr(message(" TODO :-> " msg)))
+// FIXME
+#define FIXME(msg) _Pragma(macro_cstr(message(" FIXME :-> " msg)))
+// FUTHURE
+#define FUTHURE(msg) _Pragma(macro_cstr(message(" FUTHURE :-> " msg)))
+// TEST
+#define TEST(msg) _Pragma(macro_cstr(message(" TEST :-> " msg)))
+
+#endif
+
+#endif /* SHHaveFunPrefix_pch */
