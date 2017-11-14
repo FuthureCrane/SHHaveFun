@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SHAppDelegate.h
 //  SHHaveFun
 //
 //  Created by Futhure on 2017/11/13.

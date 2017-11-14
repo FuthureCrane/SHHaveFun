@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  SHAppDelegate.m
 //  SHHaveFun
 //
 //  Created by Futhure on 2017/11/13.

@@ -10,7 +10,7 @@
 #define SHHaveFunPrefix_pch
 
 #ifdef __OBJC__
-
+//=============
 // MARK: 自动推导
 // 常量
 #define let __auto_type const
@@ -29,6 +29,10 @@
 // TEST
 #define TEST(msg) _Pragma(macro_cstr(message(" TEST :-> " msg)))
 
+#import "AFNetworking.h"
+#import "UIImage+AFNetworking.h"
+
+//=============
 #endif
 
 #endif /* SHHaveFunPrefix_pch */
