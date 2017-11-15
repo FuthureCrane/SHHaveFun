@@ -7,6 +7,7 @@
 //
 
 #import "SHAppDelegate.h"
+#import "SHFeedController.h"
 
 @interface SHAppDelegate ()
 
@@ -16,6 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    let nav = [[UINavigationController alloc] initWithNavigationBarClass:NSClassFromString(@"SHMarsLinkNavigationBar") toolbarClass:Nil];
+    [nav pushViewController:[[SHFeedController alloc] init] animated:NO];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

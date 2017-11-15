@@ -28,6 +28,8 @@
 #define FUTHURE(msg) _Pragma(macro_cstr(message(" FUTHURE :-> " msg)))
 // TEST
 #define TEST(msg) _Pragma(macro_cstr(message(" TEST :-> " msg)))
+// ERROR
+#define ERROR(msg) _Pragma(macro_cstr(message(" ERROR :-> " msg)))
 
 #import "AFNetworking.h"
 #import "UIImage+AFNetworking.h"

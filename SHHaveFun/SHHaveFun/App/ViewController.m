@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "SHAutoScrollController.h"
 #import "CalendarViewController.h"
+#import "VIKTransformViewController.h"
+#import "T4LineViewController.h"
 
 NSString *const api1 = @"https://interface.meiriyiwen.com/article/today?dev=1";
 
@@ -58,9 +60,10 @@ NSString *const api1 = @"https://interface.meiriyiwen.com/article/today?dev=1";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    AFHTTPSessionManager *mangager = [AFHTTPSessionManager manager];
+//    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    let manager = [AFHTTPSessionManager manager];
     
-    [mangager GET:api1 parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager GET:api1 parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"%@", responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
@@ -71,7 +74,9 @@ NSString *const api1 = @"https://interface.meiriyiwen.com/article/today?dev=1";
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
 //    SHAutoScrollController *sv = [[SHAutoScrollController alloc] init];
-    CalendarViewController *sv = [[CalendarViewController alloc] init];
+//    CalendarViewController *sv = [[CalendarViewController alloc] init];
+//    let sv = [[VIKTransformViewController alloc] init];
+    let sv = [[T4LineViewController alloc] init];
     [sv setHidesBottomBarWhenPushed:YES];
     [self.navigationController pushViewController:sv animated:YES];
 }
