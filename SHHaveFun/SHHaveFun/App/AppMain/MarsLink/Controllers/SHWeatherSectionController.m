@@ -35,70 +35,6 @@
     }
     return self;
 }
-
-//- (NSInteger)numberOfItems {
-//    return self.expanded ? 5 : 1;
-//}
-//
-//- (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
-//    let cellClass = index == 0 ? [SHWeatherSummaryCell class] : [SHWeatherDetailCell class];
-//    let cell = [self.collectionContext dequeueReusableCellOfClass:cellClass forSectionController:self atIndex:index];
-//    if ([cell isKindOfClass:[SHWeatherSummaryCell class]]) {
-//        let lc = (SHWeatherSummaryCell*)cell;
-//        [lc setExpanded:self.expanded];
-//    } else if ([cell isKindOfClass:[SHWeatherDetailCell class]]) {
-//        NSString *title = @"";
-//        NSString *detail = @"";
-//        let lc = (SHWeatherDetailCell *)cell;
-//        
-//        switch (index) {
-//            case 1:
-//                title = @"SUNRISE";
-//                detail = self.weather.sunrise;
-//                break;
-//            case 2:
-//                title = @"SUNSET";
-//                detail = self.weather.sunset;
-//                break;
-//            case 3:
-//                title = @"HIGH";
-//                detail = [NSString stringWithFormat:@"%ld C", self.weather.high];
-//                break;
-//            case 4:
-//                title = @"LOW";
-//                detail = [NSString stringWithFormat:@"%ld C", self.weather.low];
-//                break;
-//            default:
-//                title = @"n/a";
-//                detail = @"n/a";
-//                break;
-//        }
-//        lc.titleLabel.text = title;
-//        lc.detailLabel.text = detail;
-//    }
-//    return cell;
-//}
-//
-//- (CGSize)sizeForItemAtIndex:(NSInteger)index {
-//    let width = self.collectionContext.containerSize.width;
-//    if (index == 0) {
-//       return CGSizeMake(width, 70);
-//    } else {
-//       return CGSizeMake(width, 40);
-//    }
-//}
-//
-//- (void)didUpdateToObject:(id)object {
-//    if ([object isKindOfClass:[SHWeather class]]) {
-//        self.weather = object;
-//    }
-//}
-//
-//- (void)didSelectItemAtIndex:(NSInteger)index {
-//    self.expanded = !self.expanded;
-//    [self.collectionContext invalidateLayoutForSectionController:self completion:nil];
-//}
-
 //
 - (UICollectionViewCell<IGListBindable> *)sectionController:(IGListBindingSectionController *)sectionController cellForViewModel:(id)viewModel atIndex:(NSInteger)index {
     let cellClass = index == 0 ? [SHWeatherSummaryCell class] : [SHWeatherDetailCell class];
@@ -172,8 +108,6 @@
     }
     return nil;
 }
-
-
 // delegate
 - (void)sectionController:(IGListBindingSectionController *)sectionController didSelectItemAtIndex:(NSInteger)index viewModel:(id)viewModel {
     self.expanded = !self.expanded;
