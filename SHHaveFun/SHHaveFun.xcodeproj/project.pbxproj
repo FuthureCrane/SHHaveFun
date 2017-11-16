@@ -291,6 +291,26 @@
 		8F61745E1FBC110200B36162 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6174481FBC110200B36162 /* UIScrollView+MJExtension.m */; };
 		8F61745F1FBC110200B36162 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F61744A1FBC110200B36162 /* UIScrollView+MJRefresh.m */; };
 		8F6174601FBC110200B36162 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F61744C1FBC110200B36162 /* UIView+MJExtension.m */; };
+		8F738E1E1FBD2D4300084E3C /* SHAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E1D1FBD2D4300084E3C /* SHAVAudioPlayer.m */; };
+		8F738E211FBD31F100084E3C /* SHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E201FBD31F100084E3C /* SHLocationManager.m */; };
+		8F738E4F1FBD3B4200084E3C /* CAShapeLayer+XKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E2D1FBD3B4200084E3C /* CAShapeLayer+XKExtension.m */; };
+		8F738E501FBD3B4200084E3C /* CATextLayer+XKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E2F1FBD3B4200084E3C /* CATextLayer+XKExtension.m */; };
+		8F738E511FBD3B4200084E3C /* kLine.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F738E301FBD3B4200084E3C /* kLine.json */; };
+		8F738E521FBD3B4200084E3C /* KLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E321FBD3B4200084E3C /* KLineViewController.m */; };
+		8F738E531FBD3B4200084E3C /* UIBezierPath+XKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E341FBD3B4200084E3C /* UIBezierPath+XKExtension.m */; };
+		8F738E541FBD3B4200084E3C /* XKCandlePointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E361FBD3B4200084E3C /* XKCandlePointModel.m */; };
+		8F738E551FBD3B4200084E3C /* XKKLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E381FBD3B4200084E3C /* XKKLineModel.m */; };
+		8F738E561FBD3B4200084E3C /* XKKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E3A1FBD3B4200084E3C /* XKKLineView.m */; };
+		8F738E571FBD3B4200084E3C /* XKOriginalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E3C1FBD3B4200084E3C /* XKOriginalModel.m */; };
+		8F738E581FBD3B4200084E3C /* CAShapeLayer+borderLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E3F1FBD3B4200084E3C /* CAShapeLayer+borderLayer.m */; };
+		8F738E591FBD3B4200084E3C /* CATextLayer+textLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E411FBD3B4200084E3C /* CATextLayer+textLayer.m */; };
+		8F738E5A1FBD3B4200084E3C /* timeLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F738E421FBD3B4200084E3C /* timeLineData.json */; };
+		8F738E5B1FBD3B4200084E3C /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E441FBD3B4200084E3C /* TimeLineViewController.m */; };
+		8F738E5C1FBD3B4200084E3C /* YKCAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E461FBD3B4200084E3C /* YKCAShapeLayer.m */; };
+		8F738E5D1FBD3B4200084E3C /* YKOriginalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E481FBD3B4200084E3C /* YKOriginalModel.m */; };
+		8F738E5E1FBD3B4200084E3C /* YKTimeChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E4A1FBD3B4200084E3C /* YKTimeChartModel.m */; };
+		8F738E5F1FBD3B4200084E3C /* YKTimeChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E4C1FBD3B4200084E3C /* YKTimeChartView.m */; };
+		8F738E601FBD3B4200084E3C /* YKTimeLinePointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F738E4E1FBD3B4200084E3C /* YKTimeLinePointModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -802,6 +822,44 @@
 		8F61744A1FBC110200B36162 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		8F61744B1FBC110200B36162 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		8F61744C1FBC110200B36162 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		8F738E1C1FBD2D4300084E3C /* SHAVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAVAudioPlayer.h; sourceTree = "<group>"; };
+		8F738E1D1FBD2D4300084E3C /* SHAVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAVAudioPlayer.m; sourceTree = "<group>"; };
+		8F738E1F1FBD31F100084E3C /* SHLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLocationManager.h; sourceTree = "<group>"; };
+		8F738E201FBD31F100084E3C /* SHLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLocationManager.m; sourceTree = "<group>"; };
+		8F738E2C1FBD3B4200084E3C /* CAShapeLayer+XKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+XKExtension.h"; sourceTree = "<group>"; };
+		8F738E2D1FBD3B4200084E3C /* CAShapeLayer+XKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+XKExtension.m"; sourceTree = "<group>"; };
+		8F738E2E1FBD3B4200084E3C /* CATextLayer+XKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+XKExtension.h"; sourceTree = "<group>"; };
+		8F738E2F1FBD3B4200084E3C /* CATextLayer+XKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+XKExtension.m"; sourceTree = "<group>"; };
+		8F738E301FBD3B4200084E3C /* kLine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLine.json; sourceTree = "<group>"; };
+		8F738E311FBD3B4200084E3C /* KLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineViewController.h; sourceTree = "<group>"; };
+		8F738E321FBD3B4200084E3C /* KLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineViewController.m; sourceTree = "<group>"; };
+		8F738E331FBD3B4200084E3C /* UIBezierPath+XKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+XKExtension.h"; sourceTree = "<group>"; };
+		8F738E341FBD3B4200084E3C /* UIBezierPath+XKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+XKExtension.m"; sourceTree = "<group>"; };
+		8F738E351FBD3B4200084E3C /* XKCandlePointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKCandlePointModel.h; sourceTree = "<group>"; };
+		8F738E361FBD3B4200084E3C /* XKCandlePointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKCandlePointModel.m; sourceTree = "<group>"; };
+		8F738E371FBD3B4200084E3C /* XKKLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKKLineModel.h; sourceTree = "<group>"; };
+		8F738E381FBD3B4200084E3C /* XKKLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKKLineModel.m; sourceTree = "<group>"; };
+		8F738E391FBD3B4200084E3C /* XKKLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKKLineView.h; sourceTree = "<group>"; };
+		8F738E3A1FBD3B4200084E3C /* XKKLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKKLineView.m; sourceTree = "<group>"; };
+		8F738E3B1FBD3B4200084E3C /* XKOriginalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKOriginalModel.h; sourceTree = "<group>"; };
+		8F738E3C1FBD3B4200084E3C /* XKOriginalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKOriginalModel.m; sourceTree = "<group>"; };
+		8F738E3E1FBD3B4200084E3C /* CAShapeLayer+borderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+borderLayer.h"; sourceTree = "<group>"; };
+		8F738E3F1FBD3B4200084E3C /* CAShapeLayer+borderLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+borderLayer.m"; sourceTree = "<group>"; };
+		8F738E401FBD3B4200084E3C /* CATextLayer+textLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+textLayer.h"; sourceTree = "<group>"; };
+		8F738E411FBD3B4200084E3C /* CATextLayer+textLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+textLayer.m"; sourceTree = "<group>"; };
+		8F738E421FBD3B4200084E3C /* timeLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineData.json; sourceTree = "<group>"; };
+		8F738E431FBD3B4200084E3C /* TimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewController.h; sourceTree = "<group>"; };
+		8F738E441FBD3B4200084E3C /* TimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewController.m; sourceTree = "<group>"; };
+		8F738E451FBD3B4200084E3C /* YKCAShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCAShapeLayer.h; sourceTree = "<group>"; };
+		8F738E461FBD3B4200084E3C /* YKCAShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCAShapeLayer.m; sourceTree = "<group>"; };
+		8F738E471FBD3B4200084E3C /* YKOriginalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKOriginalModel.h; sourceTree = "<group>"; };
+		8F738E481FBD3B4200084E3C /* YKOriginalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKOriginalModel.m; sourceTree = "<group>"; };
+		8F738E491FBD3B4200084E3C /* YKTimeChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTimeChartModel.h; sourceTree = "<group>"; };
+		8F738E4A1FBD3B4200084E3C /* YKTimeChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTimeChartModel.m; sourceTree = "<group>"; };
+		8F738E4B1FBD3B4200084E3C /* YKTimeChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTimeChartView.h; sourceTree = "<group>"; };
+		8F738E4C1FBD3B4200084E3C /* YKTimeChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTimeChartView.m; sourceTree = "<group>"; };
+		8F738E4D1FBD3B4200084E3C /* YKTimeLinePointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTimeLinePointModel.h; sourceTree = "<group>"; };
+		8F738E4E1FBD3B4200084E3C /* YKTimeLinePointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTimeLinePointModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -877,6 +935,8 @@
 		8F6170C31FB9974600B36162 /* AppMain */ = {
 			isa = PBXGroup;
 			children = (
+				8F738E2A1FBD3B4200084E3C /* Stock */,
+				8F738E1B1FBD29AB00084E3C /* Tools */,
 				8F6173BA1FBAB75400B36162 /* MarsLink */,
 				8F6172371FBA9B2900B36162 /* T4Line */,
 				8F6172101FBA985A00B36162 /* Base */,
@@ -1683,6 +1743,74 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		8F738E1B1FBD29AB00084E3C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8F738E1C1FBD2D4300084E3C /* SHAVAudioPlayer.h */,
+				8F738E1D1FBD2D4300084E3C /* SHAVAudioPlayer.m */,
+				8F738E1F1FBD31F100084E3C /* SHLocationManager.h */,
+				8F738E201FBD31F100084E3C /* SHLocationManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8F738E2A1FBD3B4200084E3C /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				8F738E2B1FBD3B4200084E3C /* KLine */,
+				8F738E3D1FBD3B4200084E3C /* TimeLine */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		8F738E2B1FBD3B4200084E3C /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				8F738E2C1FBD3B4200084E3C /* CAShapeLayer+XKExtension.h */,
+				8F738E2D1FBD3B4200084E3C /* CAShapeLayer+XKExtension.m */,
+				8F738E2E1FBD3B4200084E3C /* CATextLayer+XKExtension.h */,
+				8F738E2F1FBD3B4200084E3C /* CATextLayer+XKExtension.m */,
+				8F738E301FBD3B4200084E3C /* kLine.json */,
+				8F738E311FBD3B4200084E3C /* KLineViewController.h */,
+				8F738E321FBD3B4200084E3C /* KLineViewController.m */,
+				8F738E331FBD3B4200084E3C /* UIBezierPath+XKExtension.h */,
+				8F738E341FBD3B4200084E3C /* UIBezierPath+XKExtension.m */,
+				8F738E351FBD3B4200084E3C /* XKCandlePointModel.h */,
+				8F738E361FBD3B4200084E3C /* XKCandlePointModel.m */,
+				8F738E371FBD3B4200084E3C /* XKKLineModel.h */,
+				8F738E381FBD3B4200084E3C /* XKKLineModel.m */,
+				8F738E391FBD3B4200084E3C /* XKKLineView.h */,
+				8F738E3A1FBD3B4200084E3C /* XKKLineView.m */,
+				8F738E3B1FBD3B4200084E3C /* XKOriginalModel.h */,
+				8F738E3C1FBD3B4200084E3C /* XKOriginalModel.m */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		8F738E3D1FBD3B4200084E3C /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				8F738E3E1FBD3B4200084E3C /* CAShapeLayer+borderLayer.h */,
+				8F738E3F1FBD3B4200084E3C /* CAShapeLayer+borderLayer.m */,
+				8F738E401FBD3B4200084E3C /* CATextLayer+textLayer.h */,
+				8F738E411FBD3B4200084E3C /* CATextLayer+textLayer.m */,
+				8F738E421FBD3B4200084E3C /* timeLineData.json */,
+				8F738E431FBD3B4200084E3C /* TimeLineViewController.h */,
+				8F738E441FBD3B4200084E3C /* TimeLineViewController.m */,
+				8F738E451FBD3B4200084E3C /* YKCAShapeLayer.h */,
+				8F738E461FBD3B4200084E3C /* YKCAShapeLayer.m */,
+				8F738E471FBD3B4200084E3C /* YKOriginalModel.h */,
+				8F738E481FBD3B4200084E3C /* YKOriginalModel.m */,
+				8F738E491FBD3B4200084E3C /* YKTimeChartModel.h */,
+				8F738E4A1FBD3B4200084E3C /* YKTimeChartModel.m */,
+				8F738E4B1FBD3B4200084E3C /* YKTimeChartView.h */,
+				8F738E4C1FBD3B4200084E3C /* YKTimeChartView.m */,
+				8F738E4D1FBD3B4200084E3C /* YKTimeLinePointModel.h */,
+				8F738E4E1FBD3B4200084E3C /* YKTimeLinePointModel.m */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1818,9 +1946,11 @@
 				8F6173541FBA9B2900B36162 /* emojiDataArr.plist in Resources */,
 				8F6173A11FBA9B2900B36162 /* im_ee_79@2x.png in Resources */,
 				8F6173701FBA9B2900B36162 /* im_ee_34@2x.png in Resources */,
+				8F738E511FBD3B4200084E3C /* kLine.json in Resources */,
 				8F6173801FBA9B2900B36162 /* im_ee_49@2x.png in Resources */,
 				8F6173551FBA9B2900B36162 /* emojiNameArr.plist in Resources */,
 				8F6173891FBA9B2900B36162 /* im_ee_57@2x.png in Resources */,
+				8F738E5A1FBD3B4200084E3C /* timeLineData.json in Resources */,
 				8F61739B1FBA9B2900B36162 /* im_ee_73@2x.png in Resources */,
 				8F61739A1FBA9B2900B36162 /* im_ee_72@2x.png in Resources */,
 				8F6173571FBA9B2900B36162 /* im_ee_11@2x.png in Resources */,
@@ -1869,6 +1999,7 @@
 				8F61721A1FBA985A00B36162 /* SHViewController.m in Sources */,
 				8F6171D31FBA8BC700B36162 /* IGListCollectionViewLayout.mm in Sources */,
 				8F61733F1FBA9B2900B36162 /* YYTextLine.m in Sources */,
+				8F738E591FBD3B4200084E3C /* CATextLayer+textLayer.m in Sources */,
 				8F6174601FBC110200B36162 /* UIView+MJExtension.m in Sources */,
 				8F61711F1FBA77E200B36162 /* UIWebView+AFNetworking.m in Sources */,
 				8F61711C1FBA77E200B36162 /* UIImageView+AFNetworking.m in Sources */,
@@ -1877,6 +2008,7 @@
 				8F6174531FBC110200B36162 /* MJRefreshAutoNormalFooter.m in Sources */,
 				8F6173291FBA9B2900B36162 /* SDWebImageDecoder.m in Sources */,
 				8F61721F1FBA985A00B36162 /* VIKTransformView.m in Sources */,
+				8F738E551FBD3B4200084E3C /* XKKLineModel.m in Sources */,
 				8F6171CA1FBA8BC700B36162 /* IGListIndexPathResult.m in Sources */,
 				8F61745C1FBC110200B36162 /* MJRefreshConst.m in Sources */,
 				8F6173211FBA9B2900B36162 /* NSObject+GetImageArr.m in Sources */,
@@ -1890,6 +2022,7 @@
 				8F6174591FBC110200B36162 /* MJRefreshNormalHeader.m in Sources */,
 				8F6173F21FBAE6C000B36162 /* SHJournalEntryCell.m in Sources */,
 				8F61745A1FBC110200B36162 /* MJRefreshStateHeader.m in Sources */,
+				8F738E501FBD3B4200084E3C /* CATextLayer+XKExtension.m in Sources */,
 				8F6173C41FBAB8F900B36162 /* UIColor+MarsLink.m in Sources */,
 				8F6171D21FBA8BC700B36162 /* IGListBindingSectionController.m in Sources */,
 				8F6171CC1FBA8BC700B36162 /* IGListMoveIndex.m in Sources */,
@@ -1909,6 +2042,7 @@
 				8F6171FD1FBA8BD100B36162 /* CalendarViewController.m in Sources */,
 				8F6174551FBC110200B36162 /* MJRefreshBackGifFooter.m in Sources */,
 				8F6171E21FBA8BC700B36162 /* IGListDebuggingUtilities.m in Sources */,
+				8F738E571FBD3B4200084E3C /* XKOriginalModel.m in Sources */,
 				8F6173441FBA9B2900B36162 /* YYTextParser.m in Sources */,
 				8F61732C1FBA9B2900B36162 /* SDWebImageManager.m in Sources */,
 				8F6174541FBC110200B36162 /* MJRefreshAutoStateFooter.m in Sources */,
@@ -1922,6 +2056,7 @@
 				8F6173321FBA9B2900B36162 /* UIImageView+WebCache.m in Sources */,
 				8F6174511FBC110200B36162 /* MJRefreshHeader.m in Sources */,
 				8F6171CD1FBA8BC700B36162 /* IGListMoveIndexPath.m in Sources */,
+				8F738E5E1FBD3B4200084E3C /* YKTimeChartModel.m in Sources */,
 				8F6172331FBA98EA00B36162 /* JSAlertMultiModel.m in Sources */,
 				8F61745F1FBC110200B36162 /* UIScrollView+MJRefresh.m in Sources */,
 				8F6174171FBC05EC00B36162 /* SHSummaryViewModel.m in Sources */,
@@ -1929,6 +2064,7 @@
 				8F6173381FBA9B2900B36162 /* SingleRowCell.m in Sources */,
 				8F6171E41FBA8BC700B36162 /* IGListReloadIndexPath.m in Sources */,
 				8F6173511FBA9B2900B36162 /* YYLabel+MessageHeight.m in Sources */,
+				8F738E211FBD31F100084E3C /* SHLocationManager.m in Sources */,
 				8F6171D81FBA8BC700B36162 /* IGListStackedSectionController.m in Sources */,
 				8F61734E1FBA9B2900B36162 /* YYTextWeakProxy.m in Sources */,
 				8F61732B1FBA9B2900B36162 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1938,6 +2074,7 @@
 				8F61711E1FBA77E200B36162 /* UIRefreshControl+AFNetworking.m in Sources */,
 				8F6171D61FBA8BC700B36162 /* IGListSectionController.m in Sources */,
 				8F61733D1FBA9B2900B36162 /* YYTextKeyboardManager.m in Sources */,
+				8F738E541FBD3B4200084E3C /* XKCandlePointModel.m in Sources */,
 				8F6171E11FBA8BC700B36162 /* IGListDebugger.m in Sources */,
 				8F6170BC1FB992FC00B36162 /* SHAppDelegate.m in Sources */,
 				8F6173481FBA9B2900B36162 /* NSParagraphStyle+YYText.m in Sources */,
@@ -1951,7 +2088,9 @@
 				8F6171D01FBA8BC700B36162 /* IGListAdapter.m in Sources */,
 				8F6172001FBA8BD100B36162 /* Month.m in Sources */,
 				8F61715E1FBA84D600B36162 /* SHAutoScrollCell.m in Sources */,
+				8F738E5B1FBD3B4200084E3C /* TimeLineViewController.m in Sources */,
 				8F6173E91FBAD72900B36162 /* SHPathfinder.m in Sources */,
+				8F738E521FBD3B4200084E3C /* KLineViewController.m in Sources */,
 				8F61731B1FBA9B2900B36162 /* CommentCell.m in Sources */,
 				8F6173CB1FBABC7700B36162 /* SHUser.m in Sources */,
 				8F61734C1FBA9B2900B36162 /* YYTextTransaction.m in Sources */,
@@ -1968,12 +2107,14 @@
 				8F6173EC1FBAE57C00B36162 /* SHWxScanner.m in Sources */,
 				8F6173471FBA9B2900B36162 /* NSAttributedString+YYText.m in Sources */,
 				8F6174581FBC110200B36162 /* MJRefreshGifHeader.m in Sources */,
+				8F738E561FBD3B4200084E3C /* XKKLineView.m in Sources */,
 				8F61731C1FBA9B2900B36162 /* CommentView.m in Sources */,
 				8F6171171FBA77E200B36162 /* AFAutoPurgingImageCache.m in Sources */,
 				8F6173E31FBACF0900B36162 /* SHWeather.m in Sources */,
 				8F6172201FBA985A00B36162 /* VIKTransformViewController.m in Sources */,
 				8F6173271FBA9B2900B36162 /* SDImageCache.m in Sources */,
 				8F6173371FBA9B2900B36162 /* HomeView.m in Sources */,
+				8F738E5F1FBD3B4200084E3C /* YKTimeChartView.m in Sources */,
 				8F6174561FBC110200B36162 /* MJRefreshBackNormalFooter.m in Sources */,
 				8F6173E61FBAD22C00B36162 /* SHJournalEntryLoader.m in Sources */,
 				8F6173C11FBAB7BA00B36162 /* UIFont+MarsLink.m in Sources */,
@@ -1988,11 +2129,14 @@
 				8F61740D1FBAE7D500B36162 /* SHJournalSectionController.m in Sources */,
 				8F6173B11FBA9B2900B36162 /* NSString+expression.m in Sources */,
 				8F6172011FBA8BD100B36162 /* MonthTitleCell.m in Sources */,
+				8F738E581FBD3B4200084E3C /* CAShapeLayer+borderLayer.m in Sources */,
 				8F6173311FBA9B2900B36162 /* UIImageView+HighlightedWebCache.m in Sources */,
 				8F6173241FBA9B2900B36162 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				8F61740A1FBAE7C100B36162 /* SHWeatherSectionController.m in Sources */,
 				8F6171DA1FBA8BC700B36162 /* IGListAdapter+DebugDescription.m in Sources */,
 				8F6174521FBC110200B36162 /* MJRefreshAutoGifFooter.m in Sources */,
+				8F738E1E1FBD2D4300084E3C /* SHAVAudioPlayer.m in Sources */,
+				8F738E531FBD3B4200084E3C /* UIBezierPath+XKExtension.m in Sources */,
 				8F6173531FBA9B2900B36162 /* YYClassInfo.m in Sources */,
 				8F6173221FBA9B2900B36162 /* NSString+LikeStr.m in Sources */,
 				8F6172191FBA985A00B36162 /* SHWebViewController.m in Sources */,
@@ -2002,6 +2146,7 @@
 				8F6173F81FBAE70C00B36162 /* SHMessageCell.m in Sources */,
 				8F61715B1FBA84AF00B36162 /* SHAutoScrollController.m in Sources */,
 				8F6171131FBA77E200B36162 /* AFSecurityPolicy.m in Sources */,
+				8F738E5C1FBD3B4200084E3C /* YKCAShapeLayer.m in Sources */,
 				8F6173411FBA9B2900B36162 /* YYTextSelectionView.m in Sources */,
 				8F61734B1FBA9B2900B36162 /* YYTextAsyncLayer.m in Sources */,
 				8F6171141FBA77E200B36162 /* AFURLRequestSerialization.m in Sources */,
@@ -2010,6 +2155,8 @@
 				8F6171191FBA77E200B36162 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				8F6173521FBA9B2900B36162 /* NSObject+YYModel.m in Sources */,
 				8F6174071FBAE7AD00B36162 /* SHMessageSectionController.m in Sources */,
+				8F738E601FBD3B4200084E3C /* YKTimeLinePointModel.m in Sources */,
+				8F738E4F1FBD3B4200084E3C /* CAShapeLayer+XKExtension.m in Sources */,
 				8F6173431FBA9B2900B36162 /* YYTextAttribute.m in Sources */,
 				8F61721C1FBA985A00B36162 /* SHApplication.m in Sources */,
 				8F6174011FBAE77E00B36162 /* SHClassicFeedController.m in Sources */,
@@ -2018,6 +2165,7 @@
 				8F6171C91FBA8BC700B36162 /* IGListDiff.mm in Sources */,
 				8F6171611FBA84F500B36162 /* SHAutoScrollView.m in Sources */,
 				8F6171111FBA77E200B36162 /* AFHTTPSessionManager.m in Sources */,
+				8F738E5D1FBD3B4200084E3C /* YKOriginalModel.m in Sources */,
 				8F6173451FBA9B2900B36162 /* YYTextRubyAnnotation.m in Sources */,
 				8F6171E61FBA8BC700B36162 /* IGListSectionMap.m in Sources */,
 				8F6173D11FBABE0600B36162 /* SHSolFormatter.m in Sources */,
