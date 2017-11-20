@@ -15,6 +15,7 @@
 
 #import "IGListSectionControllerInternal.h"
 #import "IGListDebugger.h"
+#import "IGListArrayUtilsInternal.h"
 
 @implementation IGListAdapter {
     NSMapTable<UICollectionReusableView *, IGListSectionController *> *_viewSectionControllerMap;
@@ -141,6 +142,8 @@
 - (void)updateAfterPublicSettingsChange {
     id<IGListAdapterDataSource> dataSource = _dataSource;
     if (_collectionView != nil && dataSource != nil) {
+        NSArray *uniqueObjects = objectsWithDuplicateIdentifiersRemoved([dataSource objectsForListAdapter:self]);
+        [self updateObjects:uniqueObjects dataSource:dataSource];
         [self updateObjects:[[dataSource objectsForListAdapter:self] copy] dataSource:dataSource];
     }
 }
@@ -357,13 +360,14 @@
         return;
     }
 
-    NSArray *newItems = [[dataSource objectsForListAdapter:self] copy];
+//    NSArray *newItems = [[dataSource objectsForListAdapter:self] copy];
+    NSArray *uniqueObjects = objectsWithDuplicateIdentifiersRemoved([dataSource objectsForListAdapter:self]);
 
     __weak __typeof__(self) weakSelf = self;
     [self.updater reloadDataWithCollectionView:collectionView reloadUpdateBlock:^{
         // purge all section controllers from the item map so that they are regenerated
         [weakSelf.sectionMap reset];
-        [weakSelf updateObjects:newItems dataSource:dataSource];
+        [weakSelf updateObjects:uniqueObjects dataSource:dataSource];
     } completion:completion];
 }
 

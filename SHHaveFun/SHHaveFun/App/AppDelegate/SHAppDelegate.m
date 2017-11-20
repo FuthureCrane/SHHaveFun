@@ -9,13 +9,21 @@
 #import "SHAppDelegate.h"
 #import "SHFeedController.h"
 #import <sys/sysctl.h>
-
+#import "GSTouchesShowingWindow.h"
 
 @interface SHAppDelegate ()
 
 @end
 
 @implementation SHAppDelegate
+
+- (GSTouchesShowingWindow *)window {
+    static GSTouchesShowingWindow *window = nil;
+    if (!window) {
+        window = [[GSTouchesShowingWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    }
+    return window;
+}
 
 /**
  获取所有进程
