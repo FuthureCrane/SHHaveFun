@@ -16,5 +16,6 @@
 - (void)touchBegan:(UITouch *)touch view:(UIView *)view;
 - (void)touchMoved:(UITouch *)touch view:(UIView *)view;
 - (void)touchEnded:(UITouch *)touch view:(UIView *)view;
+- (void)touchCanceled:(UITouch *)touch view:(UIView *)view;
 
 @end

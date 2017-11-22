@@ -37,31 +37,28 @@
 }
 
 - (void)sendEvent:(UIEvent *)event {
+    [super sendEvent:event];
     
     NSSet *touches = [event allTouches];
-    
     for (UITouch *touch in touches) {
-        
         switch ([touch phase]) {
-                
             case UITouchPhaseBegan:
                 [self.controller touchBegan:touch view:self];
                 break;
-                
             case UITouchPhaseMoved:
                 [self.controller touchMoved:touch view:self];
                 break;
-                
             case UITouchPhaseEnded:
-            case UITouchPhaseCancelled:
                 [self.controller touchEnded:touch view:self];
                 break;
-                
-            default:
+            case UITouchPhaseCancelled:
+            case UITouchPhaseStationary:
+//                [self.controller touchCanceled:touch view:self];
                 break;
+//            default:
+//                break;
         }
     }
-    [super sendEvent:event];
 }
 
 @end

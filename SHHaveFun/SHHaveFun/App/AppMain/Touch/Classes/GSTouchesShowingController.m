@@ -16,7 +16,7 @@
 
 @interface GSTouchImageViewQueue : NSObject
 
-- (id)initWithTouchesCount:(NSUInteger)count;
+- (instancetype)initWithTouchesCount:(NSUInteger)count;
 
 - (UIImageView *)popTouchImageView;
 - (void)pushTouchImageView:(UIImageView *)touchImageView;
@@ -88,6 +88,10 @@
                          [self.touchImgViewQueue pushTouchImageView:touchImgView];
                          [self removeTouchImageViewForTouch:touch];
                      }];
+}
+
+- (void)touchCanceled:(UITouch *)touch view:(UIView *)view {
+    
 }
 
 - (void)showExpandingCircleAtPosition:(CGPoint)position inView:(UIView *)view {
@@ -165,7 +169,7 @@
 
 @implementation GSTouchImageViewQueue
 
-- (id)initWithTouchesCount:(NSUInteger)count {
+- (instancetype)initWithTouchesCount:(NSUInteger)count {
     if (self = [super init]) {
         self.backingArray = [[NSMutableArray alloc] init];
         for (NSUInteger i = 0; i < count; i++) {

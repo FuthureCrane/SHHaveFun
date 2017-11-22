@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F317FA81FC2620300122556 /* SHIGListCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F317FA71FC2620300122556 /* SHIGListCollectionCell.m */; };
+		8F3310721FC516CF00555E17 /* shlunchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3310711FC516CF00555E17 /* shlunchimage.png */; };
 		8F6170BC1FB992FC00B36162 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6170B11FB992FC00B36162 /* SHAppDelegate.m */; };
 		8F6170BD1FB992FC00B36162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6170B31FB992FC00B36162 /* ViewController.m */; };
 		8F6170BE1FB992FC00B36162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6170B51FB992FC00B36162 /* LaunchScreen.storyboard */; };
@@ -15,7 +16,6 @@
 		8F6170C01FB992FC00B36162 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F6170B91FB992FC00B36162 /* Info.plist */; };
 		8F6170C11FB992FC00B36162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6170BA1FB992FC00B36162 /* main.m */; };
 		8F6170C21FB992FC00B36162 /* SHAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6170BB1FB992FC00B36162 /* SHAssets.xcassets */; };
-		8F6170C81FB99B8B00B36162 /* shlunchimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F6170C71FB99B8B00B36162 /* shlunchimage.jpg */; };
 		8F6171111FBA77E200B36162 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6170F01FBA77E200B36162 /* AFHTTPSessionManager.m */; };
 		8F6171121FBA77E200B36162 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6170F31FBA77E200B36162 /* AFNetworkReachabilityManager.m */; };
 		8F6171131FBA77E200B36162 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6170F51FBA77E200B36162 /* AFSecurityPolicy.m */; };
@@ -327,6 +327,7 @@
 /* Begin PBXFileReference section */
 		8F317FA61FC2620300122556 /* SHIGListCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHIGListCollectionCell.h; sourceTree = "<group>"; };
 		8F317FA71FC2620300122556 /* SHIGListCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHIGListCollectionCell.m; sourceTree = "<group>"; };
+		8F3310711FC516CF00555E17 /* shlunchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shlunchimage.png; sourceTree = "<group>"; };
 		8F6170921FB9880000B36162 /* SHHaveFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHHaveFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6170B01FB992FC00B36162 /* SHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
 		8F6170B11FB992FC00B36162 /* SHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
@@ -337,7 +338,6 @@
 		8F6170B91FB992FC00B36162 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6170BA1FB992FC00B36162 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F6170BB1FB992FC00B36162 /* SHAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SHAssets.xcassets; sourceTree = "<group>"; };
-		8F6170C71FB99B8B00B36162 /* shlunchimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shlunchimage.jpg; sourceTree = "<group>"; };
 		8F6170CA1FB99D3E00B36162 /* SHHaveFunPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHHaveFunPrefix.pch; sourceTree = "<group>"; };
 		8F6170EF1FBA77E200B36162 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		8F6170F01FBA77E200B36162 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -1004,7 +1004,7 @@
 		8F6170C61FB9974600B36162 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8F6170C71FB99B8B00B36162 /* shlunchimage.jpg */,
+				8F3310711FC516CF00555E17 /* shlunchimage.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1925,7 +1925,7 @@
 				TargetAttributes = {
 					8F6170911FB9880000B36162 = {
 						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1975,13 +1975,13 @@
 				8F6173831FBA9B2900B36162 /* im_ee_51@2x.png in Resources */,
 				8F6173AE1FBA9B2900B36162 /* im_ee_90@2x.png in Resources */,
 				8F6173A81FBA9B2900B36162 /* im_ee_85@2x.png in Resources */,
-				8F6170C81FB99B8B00B36162 /* shlunchimage.jpg in Resources */,
 				8F61735E1FBA9B2900B36162 /* im_ee_18@2x.png in Resources */,
 				8F61735F1FBA9B2900B36162 /* im_ee_19@2x.png in Resources */,
 				8F61737B1FBA9B2900B36162 /* im_ee_44@2x.png in Resources */,
 				8F6173911FBA9B2900B36162 /* im_ee_64@2x.png in Resources */,
 				8F6173A91FBA9B2900B36162 /* im_ee_86@2x.png in Resources */,
 				8F6173741FBA9B2900B36162 /* im_ee_38@2x.png in Resources */,
+				8F3310721FC516CF00555E17 /* shlunchimage.png in Resources */,
 				8F6173731FBA9B2900B36162 /* im_ee_37@2x.png in Resources */,
 				8F6173AF1FBA9B2900B36162 /* im_ee_9@2x.png in Resources */,
 				8F61735D1FBA9B2900B36162 /* im_ee_17@2x.png in Resources */,
@@ -2396,17 +2396,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: HUANG Hongmei (6E6SQ7M8H4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HUANG Hongmei (6E6SQ7M8H4)";
 				DEVELOPMENT_TEAM = "";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SHHaveFun/App/AppMain/PCH/SHHaveFunPrefix.pch";
 				INFOPLIST_FILE = SHHaveFun/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shhavefun.fun.SHHaveFun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shhavefun.shhavefun.p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "26ac5d85-51c3-45b5-93de-90003b7e0cfc";
+				PROVISIONING_PROFILE_SPECIFIER = "Team Privisioning";
 			};
 			name = Debug;
 		};
@@ -2422,7 +2423,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SHHaveFun/App/AppMain/PCH/SHHaveFunPrefix.pch";
 				INFOPLIST_FILE = SHHaveFun/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shhavefun.fun.SHHaveFun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shhavefun.shhavefun.p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
