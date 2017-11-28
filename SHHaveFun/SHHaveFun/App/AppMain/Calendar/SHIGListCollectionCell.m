@@ -7,7 +7,7 @@
 //
 
 #import "SHIGListCollectionCell.h"
-
+//    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:sender.tag] withRowAnimation:UITableViewRowAnimationFade];
 @implementation SHIGListCollectionCell {
     UIImageView *_imageView;
     UILabel *_textLabel;

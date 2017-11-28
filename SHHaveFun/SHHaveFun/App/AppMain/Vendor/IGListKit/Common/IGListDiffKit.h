@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import "IGListCompatibility.h>
+#import "IGListCompatibility.h"
 
 /**
  * Project version number for IGListKit.
@@ -19,14 +19,14 @@ FOUNDATION_EXPORT double IGListKitVersionNumber;
  */
 FOUNDATION_EXPORT const unsigned char IGListKitVersionString[];
 
-#import "IGListAssert.h"
-#import "IGListBatchUpdateData.h"
-#import "IGListDiff.h"
-#import "IGListDiffable.h"
-#import "IGListExperiments.h"
-#import "IGListIndexPathResult.h"
-#import "IGListIndexSetResult.h"
-#import "IGListMoveIndex.h"
-#import "IGListMoveIndexPath.h"
-#import "NSNumber+IGListDiffable.h"
-#import "NSString+IGListDiffable.h"
+#import "IGListAssert.h>
+#import "IGListBatchUpdateData.h>
+#import "IGListDiff.h>
+#import "IGListDiffable.h>
+#import "IGListExperiments.h>
+#import "IGListIndexPathResult.h>
+#import "IGListIndexSetResult.h>
+#import "IGListMoveIndex.h>
+#import "IGListMoveIndexPath.h>
+#import "NSNumber+IGListDiffable.h>
+#import "NSString+IGListDiffable.h>
